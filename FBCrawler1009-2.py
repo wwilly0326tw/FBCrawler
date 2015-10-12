@@ -23,8 +23,8 @@ def main():
     driver.get("http://facebook.com")
 
     #setting
-    usremail = "s104321501@mail1.ncnu.edu.tw"
-    usrpass = "sss6302kkaii"
+    usremail = ""
+    usrpass = ""
 
     #logIn
     logIn(usremail, usrpass)
@@ -40,7 +40,7 @@ def main():
     time.sleep(randomTime("long"))
 
     #establish connection to DB
-    conn = psycopg2.connect(host = '10.10.59.117', database = 'FBGroup-i3s', user = 'carr', password = 'ssss6302')
+    conn = psycopg2.connect(host = '', database = '', user = '', password = '')
     #create cursor
     cur = conn.cursor()
 
