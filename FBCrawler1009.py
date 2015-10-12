@@ -25,8 +25,8 @@ def main():
     
     driver.get("http://facebook.com")
     
-    usremail = "s104321501@mail1.ncnu.edu.tw"
-    usrpass = "sss6302kkaii"
+    usremail = ""
+    usrpass = ""
     #logIn
     logIn(usremail, usrpass)
     
